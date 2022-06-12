@@ -1,6 +1,6 @@
 # Pregunta 5 : Diagrama de Tombstone
 
-Este programa ejecuta una implementación de los diagramas de Tombstone como grafos. En el archivo Tdiagram.ts se encuentra el código de la implementación y en el archivo pruebaUNIT.ts se encuentran los tests con los que se realizó el unit test.
+Este programa ejecuta una implementación de los diagramas de Tombstone en Typescript como grafos. En el archivo Tdiagram.ts se encuentra el código de la implementación y en el archivo pruebaUNIT.ts se encuentran los tests con los que se realizó el unit test.
 
 ## Detalles de la implementación
 El diagrama se implementó como un grafo, en el que los nodos son los lenguajes de programación y los arcos son los traductores que indican las relaciones entre los lenguajes. El grafo se crea de manera que todos los lenguajes que puede ejecutar algún programa en la máquina son hijos del nodo LOCAL, o del lenguaje nativo de la máquina.

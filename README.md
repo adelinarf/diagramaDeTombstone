@@ -5,7 +5,7 @@ Este programa ejecuta una implementación de los diagramas de Tombstone como gra
 ## Detalles de la implementación
 El diagrama se implementó como un grafo, en el que los nodos son los lenguajes de programación y los arcos son los traductores que indican las relaciones entre los lenguajes. El grafo se crea de manera que todos los lenguajes que puede ejecutar algún programa en la máquina son hijos del nodo LOCAL, o del lenguaje nativo de la máquina.
 
-De esta manera, se puede aplicar un algoritmo de búsqueda en grafos cono DFS para viajar por todo el grafo en busca de los padres de cada nodo, si el padre de un lenguaje es LOCAL, se puede correr, si no lo es, no es posible. Además se creó una estructura de Traductor que funciona como arco del grafo dirigido y cuenta con información relevante como lenguaje de entrada, salida y el lenguaje en el que se escribió el traductor. En caso de los intérpretes, se considera el lenguaje de salida igual al lenguaje en el que se escribió el traductor.
+De esta manera, se puede aplicar un algoritmo de búsqueda en grafos como DFS para viajar por todo el grafo en busca de los padres de cada nodo, si el padre de un lenguaje es LOCAL, se puede correr, si no lo es, no es posible. Además se creó una estructura de Traductor que funciona como arco del grafo dirigido y cuenta con información relevante como lenguaje de entrada, salida y el lenguaje en el que se escribió el traductor. En caso de los intérpretes, se considera el lenguaje de salida igual al lenguaje en el que se escribió el traductor.
 
 ## ¿Cómo correr el programa?
 El programa puede correrse de manera muy sencilla mediante los comandos:

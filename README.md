@@ -1,0 +1,2 @@
+# diagramaDeTombstone
+Pregunta 5
